@@ -1,15 +1,18 @@
 {
   "name": "jsonschema-frontend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "jsonschema validator of a frontend model in json, describe your frontend in json and generate html/whatever code from it",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":"https://github.com/coderofsalvation/jsonschema-frontend.git",
+  "repository": "https://github.com/coderofsalvation/jsonschema-frontend.git",
   "author": "Coder of Salvation",
   "license": "ISC",
+  "scripts":{
+    "prepublish": "coffee -c index.coffee"
+  },
   "dependencies": {
-    "json-ref-lite": "^1.0.53"
+    "json-ref-lite": "^1.0.55"
   }
 }
