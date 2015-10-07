@@ -14,6 +14,6 @@ o.register_mustache_filters = (data) ->
 o.render = ( tplfile, data, jscode ) ->
   @.register_mustache_filters data
   tpl = fs.readFileSync( __dirname+"/../../src/mustache/"+tplfile ).toString()
-  jscode.push mustache.render tpl, data 
+  jscode.push mustache.render tpl, data
 
 module.exports = o
