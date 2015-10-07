@@ -1,6 +1,6 @@
 {
   "name": "jsonschema-frontend",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "jsonschema validator of a frontend model in json, describe your frontend in json and generate html/whatever code from it",
   "main": "index.js",
   "scripts": {
